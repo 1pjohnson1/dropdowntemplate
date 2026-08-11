@@ -25,12 +25,9 @@
     @lab.DropDownList(labnumber)[Intro, Outro, Scripts, Lab 0, Lab 1, Lab 2, Lab 3, Lab 4, Lab 5, Lab 6, Lab 7, Lab 8, Lab 9, Lab 10, Lab 11, Lab 12, Lab 13, Lab 14, Lab 15]
 </div>
 
-</center>
-
-<br><br>
 
 ===
-:::
+
 :::module(module=Intro)
 
 ## Scenario
@@ -76,7 +73,6 @@ Example:
 
 :::module(module=Scripts)
 
-
 # Scripts
 
 ## Enable Hints
@@ -120,6 +116,35 @@ Example:
   Review the authentication logs for any failed login attempts before proceeding.
 
 </details>
+
+##AI
+<iframe
+  src="https://ai-server:3001/embed/chat?embedId=bf6e4b29-b4e4-451a-aefb-4c90bfb6f578"
+  width="100%"
+  height="650"
+  frameborder="0"
+  allow="microphone">
+	<script>
+    data-embed-id="bf6e4b29-b4e4-451a-aefb-4c90bfb6f578"
+    data-base-api-url="https://ai-server:3001/api/embed"
+    src="https://ai-server:3001/embed/anythingllm-chat-widget.min.js"> 
+    data-assistant-name="${EMBED_ASSISTANT_NAME}"
+    data-greeting="${EMBED_GREETING}"
+    data-default-messages="${EMBED_SUGGESTIONS}"
+    data-button-color="${EMBED_BUTTON_COLOR}"
+    data-assistant-bg-color="#f0f4f8"
+    data-user-bg-color="${EMBED_BUTTON_COLOR}"
+    data-chat-icon="${EMBED_ICON}"
+    data-position="bottom-right"
+    data-window-height="550px"
+    data-window-width="380px"
+    data-text-size="14"
+    data-open-on-load="on"
+	</script>
+</iframe>
+
+
+
 :::
 
 :::module(module=Lab 0)
