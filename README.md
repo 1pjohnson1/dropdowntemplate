@@ -22,7 +22,7 @@
 
 <div class="box">
     <b>Select Lab:</b>&nbsp;&nbsp;&nbsp;&nbsp;
-    @lab.DropDownList(module)[Intro,Outro,Scripts,Lab 0,Lab 1,Lab 2,Lab 3,Lab 4,Lab 5,Lab 6,Lab 7,Lab 8,Lab 9,Lab 10,Lab 11,Lab 12,Lab 13,Lab 14,Lab 15]
+    @lab.DropDownList(module)[Intro,Outro,Scripts,Lab0,Lab1,Lab2,Lab3,Lab4,Lab5,Lab6,Lab7,Lab8,Lab9,Lab10,Lab11,Lab12,Lab13,Lab14,Lab15]
 </div>
 ---
 
@@ -145,68 +145,100 @@ Example:
 :::
 
 
-:::module(module=Lab 0)
+:::module(module=Lab0)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 1)
+:::module(module=Lab1)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 2)
+:::module(module=Lab2)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 3)
+:::module(module=Lab3)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 4)
+:::module(module=Lab4)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 5)
+:::module(module=Lab5)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 6)
+:::module(module=Lab6)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 7)
+:::module(module=Lab7)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 8)
+:::module(module=Lab8)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 9)
+:::module(module=Lab9)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 10)
+:::module(module=Lab10)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 11)
+:::module(module=Lab11)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 12)
+:::module(module=Lab12)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 13)
+:::module(module=Lab13)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 14)
+:::module(module=Lab14)
+@lab.title
 
+##Scenario
 :::
 
-:::module(module=Lab 15)
+:::module(module=Lab15)
+@lab.title
 
+##Scenario
 :::
 
 :::module(module=Outro)
