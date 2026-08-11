@@ -3,7 +3,7 @@
 display: Inline-block;  
 text-align: center;
 padding: 15px;
-background-color: #595959;
+background-color: #D3D3D3;
 border-radius: 10px;
 align-items: Center;
 display: flex;
@@ -11,7 +11,7 @@ justify-content: center;
   }
 
 .box select {
-background-color: #D3D3D3;
+background-color: #595959;
   }
 
 </style>
@@ -24,15 +24,11 @@ background-color: #D3D3D3;
 <br>
 
 <div class=box>
-<b>Lab:</b>&nbsp;&nbsp;&nbsp;&nbsp; @lab.DropDownList(labnumber)[Lab 0,Lab 1,Lab 2,Lab 3,Lab 4,Lab 5,Lab 6,Lab 7,Lab 8,Lab 9,Lab 10,Lab 11,Lab 12,Lab 13,Lab 14,Lab 15]
+<b>Lab:</b>&nbsp;&nbsp;&nbsp;&nbsp; @lab.DropDownList(labnumber)[Intro, Outro, Lab 0,Lab 1,Lab 2,Lab 3,Lab 4,Lab 5,Lab 6,Lab 7,Lab 8,Lab 9,Lab 10,Lab 11,Lab 12,Lab 13,Lab 14,Lab 15]
 </div>
 <br>
 
-<div class=box>
-<b>Section:</b>&nbsp;&nbsp;&nbsp;&nbsp; @lab.DropDownList(module)[Environment,Access and Credentials,Software and Updates,Skillable Optimizations,Using this Template,Scoring this Template]
-</div>
 
-]
 
 
 :::module(module=Lab 0)
