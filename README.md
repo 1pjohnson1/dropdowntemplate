@@ -1,7 +1,4 @@
-# dropdowntemplate
-
-
-!INSTRUCTIONS[](<style>
+<style>
 .box {
 display: Inline-block;  
 text-align: center;
