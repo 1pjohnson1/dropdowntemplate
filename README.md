@@ -38,4 +38,33 @@ background-color: #D3D3D3;
 ]
 
 
-:::module(module=Lab)
+:::module(module=Lab 0)
+
+:::
+:::module(module=Lab 1)
+
+:::
+:::module(module=Lab 2)
+
+:::
+:::module(module=Lab 3)
+
+:::
+:::module(module=Lab 4)
+
+:::
+:::module(module=Lab 5)
+
+:::
+:::module(module=Lab 6)
+
+:::
+:::module(module=Lab 7)
+
+:::
+
+
+
+
+
+
