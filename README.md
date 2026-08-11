@@ -24,9 +24,8 @@
     <b>Labs:</b>&nbsp;&nbsp;&nbsp;&nbsp;
     @lab.DropDownList(module)[Intro, Outro, Scripts, Lab 0, Lab 1, Lab 2, Lab 3, Lab 4, Lab 5, Lab 6, Lab 7, Lab 8, Lab 9, Lab 10, Lab 11, Lab 12, Lab 13, Lab 14, Lab 15]
 </div>
+---
 
-
-===
 
 :::module(module=Intro)
 
@@ -143,56 +142,71 @@ Example:
 	</script>
 </iframe>
 
-
-
 :::
 
+
 :::module(module=Lab 0)
+
 :::
 
 :::module(module=Lab 1)
+
 :::
 
 :::module(module=Lab 2)
+
 :::
 
 :::module(module=Lab 3)
+
 :::
 
 :::module(module=Lab 4)
+
 :::
 
 :::module(module=Lab 5)
+
 :::
 
 :::module(module=Lab 6)
+
 :::
 
 :::module(module=Lab 7)
+
 :::
 
 :::module(module=Lab 8)
+
 :::
 
 :::module(module=Lab 9)
+
 :::
 
 :::module(module=Lab 10)
+
 :::
 
 :::module(module=Lab 11)
+
 :::
 
 :::module(module=Lab 12)
+
 :::
 
 :::module(module=Lab 13)
+
 :::
 
 :::module(module=Lab 14)
+
 :::
 
 :::module(module=Lab 15)
+
 :::
 
 :::module(module=Outro)
