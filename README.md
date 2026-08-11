@@ -1,5 +1,3 @@
-@lab.title
-
 <style>
 .box {
     display: inline-flex;
@@ -18,62 +16,18 @@
 
 <center>
 
-@lab.Title
+@lab.title
 
 <br><br>
 
 <div class="box">
     <b>Lab:</b>&nbsp;&nbsp;&nbsp;&nbsp;
-    @lab.DropDownList(labnumber)[Intro, Outro, Lab 0, Lab 1, Lab 2, Lab 3, Lab 4, Lab 5, Lab 6, Lab 7, Lab 8, Lab 9, Lab 10, Lab 11, Lab 12, Lab 13, Lab 14, Lab 15]
+    @lab.DropDownList(labnumber)[Intro, Outro, Scripts, Lab 0, Lab 1, Lab 2, Lab 3, Lab 4, Lab 5, Lab 6, Lab 7, Lab 8, Lab 9, Lab 10, Lab 11, Lab 12, Lab 13, Lab 14, Lab 15]
 </div>
 
 </center>
 
 <br><br>
-
-# Scripts
-
-## Enable Hints
-
-@lab.DropDownList(ShowHints)[Yes,No]
-
-:::hint-toggle
-
-<span class="label slider-heading">Hints Enabled</span>
-
-<span class="label">No</span>
-
-<label class="switch">
-    <input type="checkbox"
-           class="checkMode"
-           title="Toggle Hints"
-           checked>
-    <span class="slider round"></span>
-</label>
-
-<span class="label">Yes</span>
-
-:::
-
-## Sample Hint
-
-<details>
-  <summary><b>💡 Hint</b> - Click here if you need assistance.</summary>
-
-  <br>
-
-  <code>su - student1</code>
-
-</details>
-
-## Sample Investigation Tip
-
-<details>
-  <summary><b>🔍 Investigation Tip</b></summary>
-
-  Review the authentication logs for any failed login attempts before proceeding.
-
-</details>
 
 ---
 
@@ -117,6 +71,55 @@ Example:
 
 </div>
 
+:::
+
+
+:::module(module=Scripts)
+
+
+# Scripts
+
+## Enable Hints
+
+@lab.DropDownList(ShowHints)[Yes,No]
+
+:::hint-toggle
+
+<span class="label slider-heading">Hints Enabled</span>
+
+<span class="label">No</span>
+
+<label class="switch">
+    <input type="checkbox"
+           class="checkMode"
+           title="Toggle Hints"
+           checked>
+    <span class="slider round"></span>
+</label>
+
+<span class="label">Yes</span>
+
+
+
+## Sample Hint
+
+<details>
+  <summary><b>💡 Hint</b> - Click here if you need assistance.</summary>
+
+  <br>
+
+  <code>su - student1</code>
+
+</details>
+
+## Sample Investigation Tip
+
+<details>
+  <summary><b>🔍 Investigation Tip</b></summary>
+
+  Review the authentication logs for any failed login attempts before proceeding.
+
+</details>
 :::
 
 :::module(module=Lab 0)
