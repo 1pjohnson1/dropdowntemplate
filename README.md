@@ -15,14 +15,14 @@
 </style>
 
 <center>
-
 @lab.title
+</center>
 
-<br><br>
+<br>
 
 <div class="box">
-    <b>Lab:</b>&nbsp;&nbsp;&nbsp;&nbsp;
-    @lab.DropDownList(labnumber)[Intro, Outro, Scripts, Lab 0, Lab 1, Lab 2, Lab 3, Lab 4, Lab 5, Lab 6, Lab 7, Lab 8, Lab 9, Lab 10, Lab 11, Lab 12, Lab 13, Lab 14, Lab 15]
+    <b>Labs:</b>&nbsp;&nbsp;&nbsp;&nbsp;
+    @lab.DropDownList(module)[Intro, Outro, Scripts, Lab 0, Lab 1, Lab 2, Lab 3, Lab 4, Lab 5, Lab 6, Lab 7, Lab 8, Lab 9, Lab 10, Lab 11, Lab 12, Lab 13, Lab 14, Lab 15]
 </div>
 
 
