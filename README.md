@@ -79,22 +79,15 @@ Example:
 ## Enable Hints
 
 @lab.DropDownList(ShowHints)[Yes,No]
-
 :::hint-toggle
-
 <span class="label slider-heading">Hints Enabled</span>
-
 <span class="label">No</span>
-
 <label class="switch">
-    <input type="checkbox"
-           class="checkMode"
-           title="Toggle Hints"
-           checked>
-    <span class="slider round"></span>
+  <input type="checkbox" class="checkMode" title="Toggle Hints" checked>
+  <span class="slider round"></span>
 </label>
-
 <span class="label">Yes</span>
+:::
 
 
 
@@ -118,31 +111,6 @@ Example:
 
 </details>
 
-##AI
-<iframe
-  src="https://ai-server:3001/embed/chat?embedId=bf6e4b29-b4e4-451a-aefb-4c90bfb6f578"
-  width="100%"
-  height="650"
-  frameborder="0"
-  allow="microphone">
-	<script>
-    data-embed-id="bf6e4b29-b4e4-451a-aefb-4c90bfb6f578"
-    data-base-api-url="https://ai-server:3001/api/embed"
-    src="https://ai-server:3001/embed/anythingllm-chat-widget.min.js"> 
-    data-assistant-name="${EMBED_ASSISTANT_NAME}"
-    data-greeting="${EMBED_GREETING}"
-    data-default-messages="${EMBED_SUGGESTIONS}"
-    data-button-color="${EMBED_BUTTON_COLOR}"
-    data-assistant-bg-color="#f0f4f8"
-    data-user-bg-color="${EMBED_BUTTON_COLOR}"
-    data-chat-icon="${EMBED_ICON}"
-    data-position="bottom-right"
-    data-window-height="550px"
-    data-window-width="380px"
-    data-text-size="14"
-    data-open-on-load="on"
-	</script>
-</iframe>
 
 :::
 
