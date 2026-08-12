@@ -76,18 +76,20 @@ Example:
 
 # Scripts
 
-## Enable Hints
+## Hint Slider
 
 @lab.DropDownList(ShowHints)[Yes,No]
-:::hint-toggle
-<span class="label slider-heading">Hints Enabled</span>
-<span class="label">No</span>
-<label class="switch">
-  <input type="checkbox" class="checkMode" title="Toggle Hints" checked>
-  <span class="slider round"></span>
-</label>
-<span class="label">Yes</span>
-:::
+
+<div class="hint-slider">
+    <span class="hint-title">Hints Enabled</span>
+
+    <label class="switch">
+        <input type="checkbox" checked>
+        <span class="slider round"></span>
+    </label>
+
+    <span class="hint-label">Show Hints</span>
+</div>
 
 
 
@@ -119,7 +121,6 @@ Example:
 ## Grade Lab
 
 >You have completed the following tasks:
-
 - [Task 1]
 - [Task 2]
 - [Task 3]
