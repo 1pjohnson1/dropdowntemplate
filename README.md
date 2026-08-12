@@ -16,13 +16,14 @@
 
 <center>
 @lab.title
-</center>
+
 
 <br>
 
 <div class="box">
     <b>Select Lab:</b>&nbsp;&nbsp;&nbsp;&nbsp;
-    @lab.DropDownList(module)[Intro,Outro,Scripts,Lab0,Lab1,Lab2,Lab3,Lab4,Lab5,Lab6,Lab7,Lab8,Lab9,Lab10,Lab11,Lab12,Lab13,Lab14,Lab15]
+    @lab.DropDownList(module)[Intro,Outro,Environment,Scripts,Lab0,Lab1,Lab2,Lab3,Lab4,Lab5,Lab6,Lab7,Lab8,Lab9,Lab10,Lab11,Lab12,Lab13,Lab14,Lab15]
+</center>
 </div>
 ---
 
@@ -143,7 +144,6 @@ Example:
 </iframe>
 
 :::
-
 
 :::module(module=Lab0)
 @lab.title
