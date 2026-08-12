@@ -1,29 +1,30 @@
 <style>
 .box {
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 15px;
-    background-color: #D3D3D3;
+    background-color: #217097;
+	display: flex;
     border-radius: 10px;
 }
 
 .box select {
-    background-color: #595959;
+    background-color: #D4D8Da;
 }
 </style>
 
 <center>
 @lab.title
-
+</center>
 
 <br>
 
-<div class="box">
+<div class=box>
     <b>Select Lab:</b>&nbsp;&nbsp;&nbsp;&nbsp;
-    @lab.DropDownList(module)[Intro,Outro,Environment,Scripts,Lab0,Lab1,Lab2,Lab3,Lab4,Lab5,Lab6,Lab7,Lab8,Lab9,Lab10,Lab11,Lab12,Lab13,Lab14,Lab15]
-</center>
+    @lab.DropDownList(module)[Intro,Environment,Scripts,Lab0,Lab1,Lab2,Lab3,Lab4,Lab5,Lab6,Lab7,Lab8,Lab9,Lab10,Lab11,Lab12,Lab13,Lab14,Lab15,Outro]
+
 </div>
 ---
 
